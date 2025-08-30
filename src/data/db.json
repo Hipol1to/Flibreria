@@ -1,5 +1,45 @@
 {
     "users": [
-        {"id": "aa2f5cfa-6e01-4fbb-a281-0348106506ae", "name"}
+        {
+            "id": "aa2f5cfa-6e01-4fbb-a281-0348106506ae", 
+            "name": "Domingo Aybar", 
+            "email": "domingo@iqnex.com", 
+            "password": "domingoLapara123", 
+            "role": "admin"
+        },
+        {
+            "id": "b09cb5b9-d75f-470a-a0e9-d68579483474", 
+            "name": "Hipolito Perez", 
+            "email": "hipolito@iqnex.com", 
+            "password": "hipolitoperez.NOmejiaXD123", 
+            "role": "editor"
+        },
+        {
+            "id": "e73f2751-e8ea-45d6-8634-1c3a7e0d736f", 
+            "name": "Fulanito Alvarez", 
+            "email": "fulanito@iqnex.com", 
+            "password": "fulanitoalvareZZZ321", 
+            "role": "editor"
+        }
+    ],
+    "books": [
+        {
+            "id": "3712c370-a397-47d3-b4e4-a48690d5e9c9", 
+            "title": "Don Quijote de la Mancha", 
+            "author": "Miguel de Cervantes", 
+            "year": 1605, 
+            "tags": ["clásico", "novela"],
+            "userId": "b09cb5b9-d75f-470a-a0e9-d68579483474",
+            "createdAt": "2025-08-29T21:10:00Z"
+        },
+        {
+            "id": "21f95529-6cc9-41ca-9a6b-ff5bca3e8bb2", 
+            "title": "Juan Salvador Gaviota", 
+            "author": "Richard Bach", 
+            "year": 1970, 
+            "tags": ["clásico", "novela", "libertad", "individualismo"],
+            "userId": "aa2f5cfa-6e01-4fbb-a281-0348106506ae",
+            "createdAt": "2025-08-29T21:10:00Z"
+        }
     ]
 }
