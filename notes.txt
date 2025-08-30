@@ -1,0 +1,22 @@
+Lo muyayo requested that the data persistency will be simulated with an static JSON file, 
+and also the session would be stored at memory level using Zustand (LaZustancia XD) which is 
+closely related with the roles admin, editor & reader.
+
+we also have the entities:
+User {
+    id,
+    name,
+    email,
+    password,
+    role
+}
+Book {
+    id,
+    title,
+    author,
+    year,
+    tags[],
+    userId,
+    createdAt,
+    updatedAt?
+}
