@@ -11,7 +11,7 @@ interface usersState {
     setRole: (id: string, role: Role) => void
 }
 
-export const userStore = create<usersState>((set,get) => ({
+export const useUsersStore = create<usersState>((set,get) => ({
     users: [],
     async load() {
         await new Promise (r=>setTimeout(r,300));

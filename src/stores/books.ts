@@ -13,7 +13,7 @@ interface BooksState {
     remove: (id: string) => Promise<boolean>
 }
 
-export const useBookStore = create<BooksState>((set, get) => ({
+export const useBooksStore = create<BooksState>((set, get) => ({
     books: [],
     async load() {
         await new Promise (r => setTimeout(r,300));

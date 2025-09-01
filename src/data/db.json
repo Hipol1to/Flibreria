@@ -3,23 +3,23 @@
         {
             "id": "aa2f5cfa-6e01-4fbb-a281-0348106506ae", 
             "name": "Domingo Aybar", 
-            "email": "domingo@iqnex.com", 
+            "email": "domingo@iqnext.com", 
             "password": "domingoLapara123", 
             "role": "admin"
         },
         {
             "id": "b09cb5b9-d75f-470a-a0e9-d68579483474", 
             "name": "Hipolito Perez", 
-            "email": "hipolito@iqnex.com", 
+            "email": "hipolito@iqnext.com", 
             "password": "hipolitoperez.NOmejiaXD123", 
             "role": "editor"
         },
         {
             "id": "e73f2751-e8ea-45d6-8634-1c3a7e0d736f", 
             "name": "Fulanito Alvarez", 
-            "email": "fulanito@iqnex.com", 
+            "email": "fulanito@iqnext.com", 
             "password": "fulanitoalvareZZZ321", 
-            "role": "editor"
+            "role": "reader"
         }
     ],
     "books": [
