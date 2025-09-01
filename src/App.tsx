@@ -19,7 +19,9 @@ export default function App() {
           <Route path="/books/new" element={<BookForm />} />
           <Route path="/books/:id/edit" element={<BookForm />} />
         </Route>
-        <Route path="/users" element={<ProtectedRoute><Users /></ProtectedRoute>} />
+        <Route element={<ProtectedRoute />}>
+          <Route path="/users" element={<Users />} />
+        </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
