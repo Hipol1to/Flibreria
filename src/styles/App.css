@@ -1,42 +1,45 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root { 
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
 }
+body { 
+  margin: 0; background: #0b0f14; color: #eaeef3; }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+a { 
+  color: inherit; text-decoration: none; 
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.container { 
+  max-width: 1080px; margin: 0 auto; padding: 16px; 
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.card { 
+  background: #121821; border: 1px solid #1c2735; border-radius: 16px; padding: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.25); 
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row { 
+  display: flex; gap: 12px; flex-wrap: wrap; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.btn { 
+  background: #2563eb; border: 0; color: white; padding: 10px 14px; border-radius: 10px; cursor: pointer; 
 }
-
-.card {
-  padding: 2em;
+.btn.secondary { 
+  background: #334155; 
 }
-
-.read-the-docs {
-  color: #888;
+.btn.danger { 
+  background: #dc2626; 
+}
+.input, .select { 
+  width: 100%; padding: 10px 12px; background: #0f1720; border: 1px solid #1f2a38; color: #eaeef3; border-radius: 10px; 
+}
+table { 
+  width: 100%; border-collapse: collapse; 
+}
+th, td { 
+  padding: 10px; border-bottom: 1px solid #1c2735; text-align: left; 
+}
+nav { 
+  display: flex; align-items: center; justify-content: space-between; padding: 12px 0; 
+}
+nav .links { 
+  display: flex; gap: 14px; 
+}
+.pill { 
+  padding: 4px 8px; border-radius: 999px; font-size: 12px; background: #1f2937; 
 }

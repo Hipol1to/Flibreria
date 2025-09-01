@@ -20,4 +20,4 @@ export interface Book {
 }
 
 export interface LoginInput { email: string; password: string }
-export type BookInput = Omit<Book, 'id' | 'createdAt' | 'updatedAt'>;
+export type BookInput = Omit<Book, 'id' | 'userId' | 'createdAt' | 'updatedAt'>;

@@ -1,6 +1,7 @@
 import {Link, NavLink, useNavigate} from 'react-router-dom'
 import { useAuthStore } from '@/stores/auth'
 import '@/styles/app.css'
+import LogoForLayout from './LogoForLayout'
 
 export default function Layout({children}: {children: React.ReactNode}) {
     const user = useAuthStore(s => s.user)
@@ -11,7 +12,7 @@ export default function Layout({children}: {children: React.ReactNode}) {
         <div className='container'>
             <nav>
                 <div className='links'>
-                    <Link to='/'><strong>Flibreria</strong></Link>
+                    <Link to='/'><LogoForLayout /></Link>
                     {
                         user && (
                             <>

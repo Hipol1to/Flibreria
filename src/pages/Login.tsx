@@ -27,7 +27,10 @@ export default function Login() {
         <input className="input" type="password" value={password} onChange={e => setPassword(e.target.value)} />
         {error && <p style={{ color: '#f87171' }}>{error}</p>}
         <button className="btn" type="submit">Entrar</button>
-        <p style={{opacity:.7, marginTop:8}}>Usuarios: domingo@iqnext.com / domingoLapara123 (admin), hipolito@iqnext.com / hipolitoperez.NOmejiaXD123 (editor), fulanito@iqnext.com / fulanitoalvareZZZ321 (reader)</p>
+        <p style={{opacity:.7, marginTop:8}}>Usuarios:</p>
+        <p style={{opacity:.7, marginTop:8}}>domingo@iqnext.com / domingoLapara123 (admin)</p>
+        <p style={{opacity:.7, marginTop:8}}>hipolito@iqnext.com / hipolitoperez.NOmejiaXD123 (editor)</p>
+        <p style={{opacity:.7, marginTop:8}}>fulanito@iqnext.com / fulanitoalvareZZZ321 (reader)</p>
       </form>
     </div>
   )

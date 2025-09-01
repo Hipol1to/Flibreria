@@ -16,7 +16,9 @@ export default function Dashboard() {
     }, 
     [loadBooks, loadUsers, user.role])
 
-  const myBooks = useMemo(() => user.role === 'admin' ? books : books.filter(b => b.userId === user.id), [books, user])
+  const myBooks = useMemo(() => 
+    user.role === 'admin' ? books : books.filter(b => b.userId === user.id), [books, user]
+  )
   const lastBook = myBooks[0]
   const byYear = useMemo(() => {
     const map = new Map<number, number>()
